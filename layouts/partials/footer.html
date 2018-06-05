@@ -1,0 +1,7 @@
+<div class="footer">
+  {{ if .Site.Params.FooterMsg }}
+  <p>{{ .Site.Params.FooterMsg | safeHTML }}</p>
+  {{else}}
+  <p>Powered by <a href="http://gohugo.io">Hugo</a>. This theme slim-coder is open sourced on <a href="https://github.com/crup/slim-coder">Github</a>.</p>
+  {{end}}
+</div>
